@@ -17,8 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/splash_logo"
-        android:text="Kas RT 009"
         android:textAlignment="center"
+        android:text="Kas RT 009"
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold" />

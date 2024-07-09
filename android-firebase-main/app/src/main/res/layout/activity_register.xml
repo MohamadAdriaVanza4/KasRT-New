@@ -6,16 +6,15 @@
     android:id="@+id/layoutRegister"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
-
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
         android:gravity="center"
-        android:text="Aplikasi Kas RT 009"
-        android:textColor="@color/black"
+        android:text="@string/Title"
         android:textFontWeight="900"
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

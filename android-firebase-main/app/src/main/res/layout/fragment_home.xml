@@ -23,19 +23,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/grape1"
                 android:paddingHorizontal="16dp"
                 android:text="Selamat Datang, Di Aplikasi Kas RT 009"
-                android:textColor="@color/grape1"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
+                android:text="Gerakan Membayar Kas Tepat Waktu"
                 android:paddingHorizontal="16dp"
-                android:text="Selamat Malam Sahabat"
                 android:textColor="@color/grape1"
                 android:textSize="20sp"
+                android:layout_marginBottom="10dp"
                 android:textStyle="bold" />
 <!--            <View-->
 <!--                android:layout_width="match_parent"-->
@@ -60,13 +60,13 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
+                    android:background="@color/colorPrimaryVariant"
                     android:layout_height="120dp"
                     android:layout_margin="8dp"
-                    android:background="@color/colorPrimaryVariant"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="2dp">
 
@@ -75,19 +75,18 @@
                         android:id="@+id/slide1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/ketua" />
+                        android:src="@drawable/ketua"
+                        android:contentDescription="@string/app_name" />
 
 
                     <!-- Isi Card View -->
 
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
+                    android:background="@color/colorPrimaryVariant"
                     android:layout_height="120dp"
                     android:layout_margin="8dp"
-                    android:background="@color/colorPrimaryVariant"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="2dp">
 
@@ -96,19 +95,18 @@
                         android:id="@+id/slide2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/wakil" />
+                        android:src="@drawable/wakil"
+                        android:contentDescription="@string/app_name" />
 
 
                     <!-- Isi Card View -->
 
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
+                    android:background="@color/colorPrimaryVariant"
                     android:layout_height="120dp"
                     android:layout_margin="8dp"
-                    android:background="@color/colorPrimaryVariant"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="2dp">
 
@@ -117,19 +115,18 @@
                         android:id="@+id/slide3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/sekretaris" />
+                        android:src="@drawable/sekretaris"
+                        android:contentDescription="@string/app_name" />
 
 
                     <!-- Isi Card View -->
 
                 </androidx.cardview.widget.CardView>
-
                 <androidx.cardview.widget.CardView
                     android:layout_width="150dp"
+                    android:background="@color/colorPrimaryVariant"
                     android:layout_height="120dp"
                     android:layout_margin="8dp"
-                    android:background="@color/colorPrimaryVariant"
                     app:cardCornerRadius="4dp"
                     app:cardElevation="2dp">
 
@@ -138,8 +135,8 @@
                         android:id="@+id/slide4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:contentDescription="@string/app_name"
-                        android:src="@drawable/bendahara" />
+                        android:src="@drawable/bendahara"
+                        android:contentDescription="@string/app_name" />
 
 
                     <!-- Isi Card View -->
@@ -157,6 +154,13 @@
             android:layout_height="200dp" />
 
         <!-- Menu -->
+        <Button
+            android:id="@+id/startDetectionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_centerInParent="true"
+            android:text="Start Face Detection" />
 
     </LinearLayout>
 

@@ -11,11 +11,11 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
         android:gravity="center"
-        android:text="Aplikasi Kas RT 009"
-        android:textColor="@color/black"
+        android:text="@string/Title"
         android:textFontWeight="900"
+        android:textColor="@color/black"
+        android:layout_marginTop="100dp"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,13 +24,12 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="50dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
-
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        />
     <TextView
         android:id="@+id/login"
         android:layout_width="match_parent"
@@ -88,16 +87,17 @@
         android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginHorizontal="20dp"
         android:layout_marginVertical="10dp"
-        android:background="#4E00FF"
-        android:gravity="center"
-        android:text="LOGIN"
-        android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:layout_marginHorizontal="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/itemPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/itemPassword"
+        android:text="LOGIN"
+        android:gravity="center"
+        android:background="@color/colorPrimaryVariant"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        />
 
     <TextView
         android:id="@+id/link_to_register"
